@@ -36,7 +36,7 @@ sudo -U postgres psql
 
 Create role:
 
-create role recruit with login password 'recruit';
+create role recruit_user with login password 'recruit';
 
 Create Database:
 
