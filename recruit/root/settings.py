@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'recruit',
-        'USER': 'recruit_user',
+        'USER': 'recruit',
         'PASSWORD': 'recruit',
         'HOST': 'localhost',
         'PORT': 5432,
