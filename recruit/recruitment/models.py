@@ -11,7 +11,6 @@ class UserProfile(models.Model):
     phone_number = models.CharField(max_length=30)
     address = models.TextField(null=True, blank=True)
     total_experience = models.FloatField()
-    document = models.FileField(upload_to='documents/')
     status = models.CharField(max_length=20, default='pending')
 
 
